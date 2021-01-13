@@ -29,7 +29,7 @@ void show_pointer(void *x)
 
 int main()
 {
-    int v = 245;
+    int v = 12345;
     show_int(v);
     show_int((float)v);
     int *pv = &v;
